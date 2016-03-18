@@ -3,7 +3,7 @@ Question 1
 Part A : Using Hinge Loss 
 -------------------------------------------------
 
-We will consider 5 cases in which, for each case we will take 2 folders as a testing folder 
+We will consider all cases in which, for each case we will take 2 folders as a testing folder 
 and other folders as training folders.The accuracy for each of the 5 cases are given below:
 
 Case 1 , 2: Testing folder is 1 and 2 :
@@ -185,10 +185,13 @@ Linear SVM with hinge loss accuracy : 0.987931034483
 Case 9 , 10: Testing folder is 9 and 10 :
 -------------------------------------------------
 Linear SVM with hinge loss accuracy : 0.989655172414
+
+
+
 Part B : Using Standard Formulation 
 -------------------------------------------------
 
-We will consider 5 cases in which, for each case we will take 2 folders as a testing folder 
+We will consider all cases in which, for each case we will take 2 folders as a testing folder 
 and other folders as training folders.The accuracy for each of the 5 cases are given below:
 
 Case 1 , 2: Testing folder is 1 and 2 :
@@ -370,3 +373,5 @@ Standard SVM accuracy : 0.83275862069
 Case 9 , 10: Testing folder is 9 and 10 :
 -------------------------------------------------
 Standard SVM accuracy : 0.83275862069
+
+

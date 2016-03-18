@@ -1,11 +1,11 @@
 Part B : Using Standard Formulation with LinearSVC 
 -------------------------------------------------
 
-We will consider 5 cases in which, for each case we will take 2 folders as a testing folder 
+We will consider all cases in which, for each case we will take 2 folders as a testing folder 
 and other folders as training folders.The accuracy for each of the cases are given below:
 
 Case 1 , 2: Testing folder is 1 and 2 :
--------------------------------------------------
+------------------------------------------------
 Standard SVM accuracy : 0.833910034602
 
 Case 1 , 3: Testing folder is 1 and 3 :
@@ -13,4 +13,35 @@ Case 1 , 3: Testing folder is 1 and 3 :
 Standard SVM accuracy : 0.833910034602
 
 Case 1 , 4: Testing folder is 1 and 4 :
+-------------------------------------------------
+Standard SVM accuracy : 0.833910034602
+
+Case 1 , 5: Testing folder is 1 and 5 :
+-------------------------------------------------Standard SVM accuracy : 0.834196891192
+
+Case 1 , 6: Testing folder is 1 and 6 :
+-------------------------------------------------
+Standard SVM accuracy : 0.833910034602
+
+Case 1 , 7: Testing folder is 1 and 7 :
+-------------------------------------------------
+Standard SVM accuracy : 0.833910034602
+
+Case 1 , 8: Testing folder is 1 and 8 :
+-------------------------------------------------
+Standard SVM accuracy : 0.833910034602
+
+Case 1 , 9: Testing folder is 1 and 9 :
+-------------------------------------------------
+Standard SVM accuracy : 0.833910034602
+
+Case 1 , 10: Testing folder is 1 and 10 :
+-------------------------------------------------
+Standard SVM accuracy : 0.83275862069
+
+Case 2 , 3: Testing folder is 2 and 3 :
+-------------------------------------------------
+Standard SVM accuracy : 0.833910034602
+
+Case 2 , 4: Testing folder is 2 and 4 :
 -------------------------------------------------

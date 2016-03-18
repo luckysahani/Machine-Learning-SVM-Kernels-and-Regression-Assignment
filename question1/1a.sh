@@ -1,7 +1,7 @@
 #!/bin/bash
 
 printf "Part A : Using Hinge Loss \n-------------------------------------------------\n
-We will consider 5 cases in which, for each case we will take 2 folders as a testing folder 
+We will consider all cases in which, for each case we will take 2 folders as a testing folder 
 and other folders as training folders.The accuracy for each of the cases are given below:\n"
 
 for i in {1..10}

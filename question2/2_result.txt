@@ -1,0 +1,26 @@
+Question 1
+=================================================
+Part A : One Vs Rest
+-------------------------------------------------
+One vs Rest accuracy : 0.756346680483
+
+One vs Rest accuracy : 0.755310487751
+
+One vs Rest accuracy : 0.75834505218
+
+One vs Rest accuracy : 0.75597661165
+
+One vs Rest accuracy : 0.764340167271
+
+
+Part B : One Vs One
+-------------------------------------------------
+One vs One accuracy : 0.767892828066
+
+One vs One accuracy : 0.77470209459
+
+One vs One accuracy : 0.771667530161
+
+One vs One accuracy : 0.774924135889
+
+One vs One accuracy : 0.774109984457

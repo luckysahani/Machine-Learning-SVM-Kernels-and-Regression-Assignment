@@ -4,10 +4,7 @@ from sklearn.cross_validation import KFold
 
 X = []
 Y = []
-X_train = []
-Y_train = []
-X_test = []
-Y_test = []
+
 data = open('connect-4.data', 'r')
 
 data_total = []
@@ -30,38 +27,42 @@ for i in range(0,5):
 		train_index =m
 		test_index = n
 
-	print "Reading files to make Training and Testing Dataset "
+	# print "Reading files to make Training and Testing Dataset "
 	start_time = time.time()
 
-	for indx in train_index:
-		X_train.append(X[index])
-		Y_train.append(Y[index])
-	for indx in test_index:
-		X_test.append(X[index])
-		Y_test.append(Y[index])
+	X_train = [[0]*(42*3) for i in range(len(train_index))]
+	Y_train = [0]*len(train_index)
+	X_test = [[0]*(42*3) for i in range(len(test_index))]
+	Y_test = [0]*len(test_index)
+	for indx in range(len(train_index)):
+		X_train[indx] = X[train_index[indx]]
+		Y_train[indx] = Y[train_index[indx]]
+	for indx in range(len(test_index)):
+		X_test[indx] = X[test_index[indx]]
+		Y_test[indx] = Y[test_index[indx]]
 
 	end_time = time.time() - start_time
-	print "It took "+ str(end_time) + " to make the Training and Testing Dataset"
-	print "Training and Testing Dataset completed"
+	# print "It took "+ str(end_time) + " to make the Training and Testing Dataset"
+	# print "Training and Testing Dataset completed"
 
-	print '\nTraining Classifier'
+	# print '\nTraining Classifier'
 	start_time = time.time()
-	one_vs_all__classifier = LinearSVC(multi_class = 'ovr')
-	one_vs_all__classifier.fit(X_train, Y_train)
+	one_vs_rest__classifier = LinearSVC(multi_class = 'ovr')
+	one_vs_rest__classifier.fit(X_train, Y_train)
 	end_time = time.time() - start_time
-	print "It took "+ str(end_time) + " to train the classifiers"
-	print 'Training Completed'
+	# print "It took "+ str(end_time) + " to train the classifiers"
+	# print 'Training Completed'
 
-	print '\nTesting data '
+	# print '\nTesting data '
 	start_time = time.time()
 	# Calculating Accuracy
-	one_vs_all__classifier_accuracy = one_vs_all__classifier.score(X_test, Y_test)
+	one_vs_rest__classifier_accuracy = one_vs_rest__classifier.score(X_test, Y_test)
 
 	end_time = time.time() - start_time
-	print "It took "+ str(end_time) + " to test the data "
-	print 'Testing Completed'
+	# print "It took "+ str(end_time) + " to test the data "
+	# print 'Testing Completed'
 
-	# print '\nprinting Accuracy'
-	print "\nCase "+i+" : \n"
-	print "-------------------------------------------------"
-	print "One vs All accuracy : "+ str(one_vs_all__classifier_accuracy)
+	# # print '\n# printing Accuracy'
+	# print "\nCase "+str(i)+" : \n"
+	# print "-------------------------------------------------"
+	print "\nOne vs rest accuracy : "+ str(one_vs_rest__classifier_accuracy)
