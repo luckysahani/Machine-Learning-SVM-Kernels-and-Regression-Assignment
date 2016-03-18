@@ -4,26 +4,182 @@ Part A : Using Hinge Loss
 We will consider 5 cases in which, for each case we will take 2 folders as a testing folder 
 and other folders as training folders.The accuracy for each of the 5 cases are given below:
 
-Case 1: Testing folder is 1 and 2:
+Case 1 , 2: Testing folder is 1 and 2 :
 -------------------------------------------------
 Linear SVM with hinge loss accuracy : 0.993079584775
 
-Case 3: Testing folder is 3 and 4:
+Case 1 , 3: Testing folder is 1 and 3 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.991349480969
+
+Case 1 , 4: Testing folder is 1 and 4 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.991349480969
+
+Case 1 , 5: Testing folder is 1 and 5 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.993091537133
+
+Case 1 , 6: Testing folder is 1 and 6 :
 -------------------------------------------------
 Linear SVM with hinge loss accuracy : 0.994809688581
 
-Case 5: Testing folder is 5 and 6:
+Case 1 , 7: Testing folder is 1 and 7 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.993079584775
+
+Case 1 , 8: Testing folder is 1 and 8 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.991349480969
+
+Case 1 , 9: Testing folder is 1 and 9 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.989619377163
+
+Case 1 , 10: Testing folder is 1 and 10 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.987931034483
+
+Case 2 , 3: Testing folder is 2 and 3 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.98615916955
+
+Case 2 , 4: Testing folder is 2 and 4 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.994809688581
+
+Case 2 , 5: Testing folder is 2 and 5 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.99481865285
+
+Case 2 , 6: Testing folder is 2 and 6 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.996539792388
+
+Case 2 , 7: Testing folder is 2 and 7 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.991349480969
+
+Case 2 , 8: Testing folder is 2 and 8 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.998269896194
+
+Case 2 , 9: Testing folder is 2 and 9 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.991349480969
+
+Case 2 , 10: Testing folder is 2 and 10 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.987931034483
+
+Case 3 , 4: Testing folder is 3 and 4 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.994809688581
+
+Case 3 , 5: Testing folder is 3 and 5 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.99481865285
+
+Case 3 , 6: Testing folder is 3 and 6 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.994809688581
+
+Case 3 , 7: Testing folder is 3 and 7 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.993079584775
+
+Case 3 , 8: Testing folder is 3 and 8 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.991349480969
+
+Case 3 , 9: Testing folder is 3 and 9 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.993079584775
+
+Case 3 , 10: Testing folder is 3 and 10 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.984482758621
+
+Case 4 , 5: Testing folder is 4 and 5 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.989637305699
+
+Case 4 , 6: Testing folder is 4 and 6 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.996539792388
+
+Case 4 , 7: Testing folder is 4 and 7 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.993079584775
+
+Case 4 , 8: Testing folder is 4 and 8 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.994809688581
+
+Case 4 , 9: Testing folder is 4 and 9 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.993079584775
+
+Case 4 , 10: Testing folder is 4 and 10 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.987931034483
+
+Case 5 , 6: Testing folder is 5 and 6 :
 -------------------------------------------------
 Linear SVM with hinge loss accuracy : 0.998272884283
 
-Case 7: Testing folder is 7 and 8:
+Case 5 , 7: Testing folder is 5 and 7 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.993091537133
+
+Case 5 , 8: Testing folder is 5 and 8 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.993091537133
+
+Case 5 , 9: Testing folder is 5 and 9 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.977547495682
+
+Case 5 , 10: Testing folder is 5 and 10 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.986230636833
+
+Case 6 , 7: Testing folder is 6 and 7 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.998269896194
+
+Case 6 , 8: Testing folder is 6 and 8 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.998269896194
+
+Case 6 , 9: Testing folder is 6 and 9 :
 -------------------------------------------------
 Linear SVM with hinge loss accuracy : 0.994809688581
 
-Case 9: Testing folder is 9 and 10:
+Case 6 , 10: Testing folder is 6 and 10 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.993103448276
+
+Case 7 , 8: Testing folder is 7 and 8 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.994809688581
+
+Case 7 , 9: Testing folder is 7 and 9 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.994809688581
+
+Case 7 , 10: Testing folder is 7 and 10 :
 -------------------------------------------------
 Linear SVM with hinge loss accuracy : 0.989655172414
 
-Average (Part A)
+Case 8 , 9: Testing folder is 8 and 9 :
 -------------------------------------------------
-Average Accuracy = 
+Linear SVM with hinge loss accuracy : 0.994809688581
+
+Case 8 , 10: Testing folder is 8 and 10 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.987931034483
+
+Case 9 , 10: Testing folder is 9 and 10 :
+-------------------------------------------------
+Linear SVM with hinge loss accuracy : 0.989655172414
